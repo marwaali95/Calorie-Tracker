@@ -1,0 +1,12 @@
+.track-calories-button {
+  background-color: var(--theme-color-normal);
+  color: var(--theme-background-light);
+  border: none;
+  display: flex;
+  border-radius: 15px;
+  padding: 10px 60px;
+  cursor: pointer;
+  flex-grow: 1;
+  margin: auto;
+
+}

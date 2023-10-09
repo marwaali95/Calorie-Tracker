@@ -1,0 +1,82 @@
+/* Form styles */
+
+.form {
+    background-color: var(--theme-background-ultralight);
+    padding: 20px;
+    border-radius: var(--theme-border-radius-smooth);
+    border: 1px solid var(--theme-background-normal);
+}
+
+.form label {
+    color: #333;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.calorie-record,
+.form input[type="date"],
+.form select {
+    background-color: var(--theme-background-light);
+    color: var(--theme-color-normal);
+    border: 1px solid var(--theme-color-normal);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 255px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.footer {
+    display: flex;
+}
+
+.footer button {
+    background-color: var(--theme-color-normal);
+    color: var(--theme-background-light);
+    border: none;
+    display: block;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.footer button:nth-child(2) {
+    background-color: var(--theme-background-light);
+    color: var(--theme-color-normal);
+    border: none;
+    display: block;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.error {
+    border: 1px solid maroon;
+    background: var(--theme-background-light);
+    color: maroon;
+}
+
+@media (min-width:786px) {
+    .form {
+        display: grid;
+        grid-template-rows: repeat(2, auto)minmax(40px, auto);
+        grid-template-columns: repeat(2, auto 1fr);
+        column-gap: 1rem;
+    }
+
+    .footer {
+        grid-column: 1/-1;
+        justify-self: center;
+        width: 50%;
+        max-width: 300px;
+        border: none;
+    }
+}

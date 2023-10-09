@@ -1,0 +1,23 @@
+.record {
+    list-style: none;
+    padding: 5px 5px;
+    color: #666;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    max-width: 768px;
+}
+
+.record-calories {
+    color: var(--theme-color-dark);
+    font-weight: 400;
+}
+
+.remove {
+    cursor: pointer;
+
+}
