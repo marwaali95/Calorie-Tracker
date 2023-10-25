@@ -26,3 +26,24 @@ body {
 h1 {
   text-align: center;
 }
+
+.loginContainer {
+  width: fit-content;
+  margin: auto;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  padding: 24px;
+  margin-top: 100px;
+}
+
+.block {
+  display: block;
+  margin-top: 16px;
+  padding: 10px 24px;
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
